@@ -1,0 +1,7 @@
+.server-status{
+    width: 80%;
+    height: max-content;
+    background-color: rgb(102, 102, 243);
+    margin: 0 auto;
+    margin-top: 3rem;
+}
