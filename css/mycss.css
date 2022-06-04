@@ -2,6 +2,8 @@
     width: 80%;
     height: max-content;
     background-color: rgb(102, 102, 243);
-    margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 5rem;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    margin-left: auto;
 }
