@@ -32,3 +32,34 @@ function checkCookie() {
        }
     }
 }
+
+function usernameCookie(){
+    var user=getCookie("username");
+    if (user != "") {
+        alert("Доброго дня " + user +"!");
+    } else {
+       user = prompt("Будь ласка, введіть свій нікнейм:","");
+       if (user != "" && user != null) {
+           setCookie("username", user, 30);
+       }
+    }
+}
+
+
+function registeruserCookie(){
+    var user=getCookie("username");
+    user = prompt("Будь ласка, введіть свій нікнейм:","");
+    if (user != "" && user != null) {
+        setCookie("username", user, 30);
+        alert ('Дякую за реєстрацію ' + user + '!')
+    } else registeruserCookie();
+    
+
+}
+function welcomeusernameCookie(){
+    var user=getCookie("username");
+    if (user = user){
+        alert ('Доброго дня' + user + '!')
+    }
+
+}
