@@ -23,9 +23,11 @@
         <link rel="stylesheet" href="css/mycss.css">
         
         <link rel="stylesheet" href="css/mdb.min.css" />
-        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/16e30f1e90ac4aff32ba532f6/fe5d499e7bf7e1fa6b5f4f71d.js");</script>
+        
+        
+        
       </head>
-<body>
+<body onload="checkCookie()">
     <div class="wrapper">
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 fs-3" style="background-color: #7292d8!important;">
@@ -158,6 +160,29 @@
 
               <h1 class="text-center p-4" style="font-weight: 600;">Як зайти на сервер?</h1>
               <p class="fs-4">На вкладці <a href=""><b>СТАТУС</b></a> ви можете знайти різну інформацію про сервер, як: IP, ядро, статус (онлайн або офлайн).</p>
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-mdb-toggle="modal" data-mdb-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal left fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-mdb-backdrop="false" data-mdb-keyboard="true">
+  <div class="modal-dialog modal-side modal-bottom-left  modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">...</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
             
 
@@ -211,7 +236,8 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
+    <script type="text/javascript" src="cookie.js"></script>
 
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/16e30f1e90ac4aff32ba532f6/fe5d499e7bf7e1fa6b5f4f71d.js");</script>
+    
 </body>
 </html>
