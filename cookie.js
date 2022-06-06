@@ -59,7 +59,7 @@ function registeruserCookie(){
 function welcomeusernameCookie(){
     var user=getCookie("username");
     if (user = user){
-        alert ('Доброго дня' + user + '!')
+        alert ('Доброго дня ' + user + ' !')
     }
 
 }
