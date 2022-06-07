@@ -59,7 +59,30 @@ function registeruserCookie(){
 function welcomeusernameCookie(){
     var user=getCookie("username");
     if (user = user){
-        alert ('Доброго дня ' + user + ' !')
+        alert ('Доброго дня ' + user + '!')
     }
 
+}
+
+ 
+
+
+function deleteuserCookie(user) {   
+    var user=getCookie("username");
+    if (confirm("Ви точно хочете видалити аккаунт" + user + "?"));{
+        document.cookie = name+'=; Max-Age=-99999999;';  alert("Ви успішно видалили аккаунт!")
+        
+    } 
+    alert("Фух");
+    
+     
+}
+
+function showbutton(){
+    var user=getCookie("username");
+    if (user !=""  && user != null){
+        showbutton;
+    } else{
+        
+    }
 }
