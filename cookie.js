@@ -69,7 +69,7 @@ function welcomeusernameCookie(){
 
 function deleteuserCookie(user) {   
     var user=getCookie("username");
-    if (confirm("Ви точно хочете видалити аккаунт" + user + "?"));{
+    if  (user !=""  && user != null) (confirm("Ви точно хочете видалити аккаунт" + user + "?"));{
         document.cookie = name+'=; Max-Age=-99999999;';  alert("Ви успішно видалили аккаунт!")
         
     } 
