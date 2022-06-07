@@ -67,21 +67,21 @@ function welcomeusernameCookie(){
  
 
 
-function deleteuserCookie(user) {   
-    var user=getCookie("username");
-    if  (user !=""  && user != null) (confirm("Ви точно хочете видалити аккаунт" + user + "?"));{
-        document.cookie = user +'=; Max-Age=-99999999;';  alert("Ви успішно видалили аккаунт!")
+    function deleteuserCookie(user) {   
+        var user=getCookie("username");
+        if  (user !=""  && user != null) (confirm("Ви точно хочете видалити аккаунт" + user + "?"));{
+            document.cookie = user +'=; Max-Age=-99999999;';  alert("Ви успішно видалили аккаунт!");
+            
+        }
+        
         
     }
-    
-     
-}
 
-function showbutton(){
-    var user=getCookie("username");
-    if (user !=""  && user != null){
-        showbutton;
-    } else{
-        
+    function showbutton(){
+        var user=getCookie("username");
+        if (user !=""  && user != null){
+            showbutton;
+        } else{
+            
+        }
     }
-}
