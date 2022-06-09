@@ -1,157 +1,204 @@
-  <!DOCTYPE html>
-  <html lang="en">
-      <head>
-          <meta charset="UTF-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-          <meta http-equiv="x-ua-compatible" content="ie=edge" />
-          <meta name="keywords" content="n1treelcraft, сервер minecraft, Minecraft, n1treel, n1treelbeats">
-          <meta name="description" content="n1treelcraft - Сервера Minecraft для тебе та твоїх друзів, грай з *скільки заманеться!">
-          <meta name="author" content="n1treel">
-          <title>Статус сервера</title>
-          
-          <link rel="icon" href="img/logo.png" type="image/x-icon" />
-          
-          <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-          />
-          
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-          />
-          <link rel="stylesheet" href="css/mycss.css">
-          
-          <link rel="stylesheet" href="css/mdb.min.css" />
-          
-        </head>
-  <body>
-      <div class="wrapper" style="min-height: 100vh!important;">
+<!DOCTYPE html>
+<html lang="en">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 fs-3" style="background-color: #7292d8!important;">
-          <!-- Container wrapper -->
-          <div class="container-fluid">
-            <!-- Toggle button -->
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-mdb-toggle="collapse"
-              data-mdb-target="#navbarCenteredExample"
-              aria-controls="navbarCenteredExample"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="fas fa-bars"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="keywords" content="n1treelcraft, сервер minecraft, Minecraft, n1treel, n1treelbeats">
+  <meta name="description"
+    content="n1treelcraft - Сервера Minecraft для тебе та твоїх друзів, грай з *скільки заманеться!">
+  <meta name="author" content="n1treel">
+  <title>Статус серверів</title>
+
+  <link rel="icon" href="img/logo.png" type="image/x-icon" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <link rel="stylesheet" href="css/mycss.css">
+
+  <link rel="stylesheet" href="css/mdb.min.css" />
+
+</head>
+
+<body>
+  <div class="wrapper" style="min-height: 100vh!important;">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 fs-3" style="background-color: #7292d8!important;">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarCenteredExample"
+          aria-controls="navbarCenteredExample" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+          <!-- Left links -->
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                style="font-weight: 900; color: #2600ff; text-shadow: 4px 0px 7px rgba(0,126,255,0.8);">N1treelcraft</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Головна</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="status.html">Статус</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="downloads.html">Завантажити</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+
+
+    <div class="container text-center">
+
+      <h1 class="text-center p-4" style="font-weight: 600;">Статус та інша інформація</h1>
+      <p class="fs-4">Тут ви можете переглянути статус, ядро та версію серверів</p>
+
+
+      <div class="server-status" style="color: white;">
+        <h2 class="p-3 text-center mb-0" style="color: white;background-color: rgb(96, 165, 244); font-weight: 900;">
+          Сервер Java Edition:</h2>
+        <div class="pt-5 pb-5">
+          <p class="fs-4 p-2 mb-0 text-left">Ядро: <b>Fabric</b></p>
+          <p class="fs-4 p-2 mb-0">Версія: <b>1.18.2</b></p>
+          <p class="fs-4 p-2 mb-0">IP адреса: <b>n1treelcraft.gq:41651</b></p>
+        </div>
+        <h2 class="p-3 text-center mb-0" style="color: white;background-color: rgb(96, 165, 244); font-weight: 900;">
+          Статус:</h2>
+        <div class="d-grid gap-2">
+          <button class="btn btn-danger" type="button" style="font-size: 18px;" data-mdb-toggle="modal"
+          data-mdb-target="#fail-modal"><a
+              href="#" style="color:white; width: 100%; height: 100%; display: block;"><b>Офлайн</b></a></button>
+        </div>
+      </div>
+
+      <div class="server-status" style="color: white;">
+
+        <h2 class="p-3 text-center mb-0" style="color: white;background-color: rgb(96, 165, 244); font-weight: 900;">
+          Сервер Bedrock Edition (Win10/MCPE):</h2>
+        <div class="pt-5 pb-5">
+          <p class="fs-4 p-2 mb-0 text-left">Ядро: <b>Vanilla (звичайний)</b></p>
+          <p class="fs-4 p-2 mb-0">Версія: <b>1.18.32.02</b></p>
+          <p class="fs-4 p-2 mb-0">IP адреса: <b>n1treelcraft-pe.gq:57286</b></p>
+        </div>
+        <h2 class="p-3 text-center mb-0" style="color: white;background-color: rgb(96, 165, 244); font-weight: 900;">
+          Статус:</h2>
+
+        <div class="d-grid gap-2">
+          <button class="btn btn-danger" type="button" style="font-size: 18px;" data-mdb-toggle="modal"
+            data-mdb-target="#fail-modal"><a href="#"
+              style="color:white; width: 100%; height: 100%; display: block;"><b>Офлайн</b></a></button>
+        </div>
+      </div>
+
+      <div class="modal top fade" id="fail-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        data-mdb-backdrop="true" data-mdb-keyboard="true">
+        <div class="modal-dialog   modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Сервер Bedrock Edition (Win10/MCPE)</h5>
+              <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Сервер Minecraft <b>n1treelcraft-pe.gq</b> зараз - <span
+                  style="color: red; font-weight: 900;">ОФЛАЙН</span>! Бажаєте пограти коли сервер ОФЛАЙН? - Напишіть адміну в
+                інсту: <span style="color: blue; font-weight: 900;"><a href="https://www.instagram.com/n1treel/"
+                    target="_blank">@n1treel</a></span></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-mdb-dismiss="modal">
+                Зрозумів!
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal top fade" id="success-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+      data-mdb-backdrop="true" data-mdb-keyboard="true">
+      <div class="modal-dialog   modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Сервер Java Edition</h5>
+            <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Сервер Minecraft <b>n1treelcraft.gq</b> зараз - <span
+                style="color: green; font-weight: 900;">ОНЛАЙН</span>! Бажаєте пограти коли сервер ОФЛАЙН? - Напишіть адміну в
+              інсту: <span style="color: blue; font-weight: 900;"><a href="https://www.instagram.com/n1treel/"
+                  target="_blank">@n1treel</a></span></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-mdb-dismiss="modal">
+              Зрозумів!
             </button>
-        
-            <!-- Collapsible wrapper -->
-            <div
-              class="collapse navbar-collapse justify-content-center"
-              id="navbarCenteredExample"
-            >
-              <!-- Left links -->
-              <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html" style="font-weight: 900; color: #2600ff; text-shadow: 4px 0px 7px rgba(0,126,255,0.8);">N1treelcraft</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Головна</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="status.html">Статус</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="downloads.html">Завантажити</a>
-                </li>
-              </ul>
-              <!-- Left links -->
-            </div>
-            <!-- Collapsible wrapper -->
-          </div>
-          <!-- Container wrapper -->
-        </nav>
-
-        
-          <div class="container text-center">
-              
-              <h1 class="text-center p-4" style="font-weight: 600;">Статус та інша інформація</h1>
-              <p class="fs-4">Тут ви можете переглянути статус, ядро та версію серверів</p>
-
-
-              <div class="server-status" style="color: white;">
-                  <h2 class="p-3 text-center mb-0" style="color: white;background-color: rgb(96, 165, 244); font-weight: 900;">Сервер Java Edition:</h2>
-                  <div class="pt-5 pb-5">
-                  <p class="fs-4 p-2 mb-0 text-left">Ядро: <b>Fabric</b></p>
-                  <p class="fs-4 p-2 mb-0">Версія: <b>1.18.2</b></p>
-                  <p class="fs-4 p-2 mb-0">IP адреса: <b>n1treelcraft.gq:41651</b></p>
-                </div>
-                  <h2 class="p-3 text-center mb-0" style="color: white;background-color: rgb(96, 165, 244); font-weight: 900;">Статус:</h2>
-                  <div class="d-grid gap-2">
-                    <button class="btn btn-danger" type="button" style="font-size: 18px;"><a onclick="alert('Сервер Minecraft n1treelcraft.gq - зараз ОФЛАЙН! Бажаєте пограти? -Напишіть адміну в інсту: @n1treel')" href="#" style="color:white; width: 100%; height: 100%; display: block;"><b>Офлайн</b></a></button>
-                  </div>
-              </div>
-
-              <div class="server-status" style="color: white;">
-                
-                <h2 class="p-3 text-center mb-0" style="color: white;background-color: rgb(96, 165, 244); font-weight: 900;">Сервер Bedrock Edition (Win10/MCPE):</h2>
-                <div class="pt-5 pb-5">
-                <p class="fs-4 p-2 mb-0 text-left">Ядро: <b>Vanilla (звичайний)</b></p>
-                <p class="fs-4 p-2 mb-0">Версія: <b>1.18.32.02</b></p>
-                <p class="fs-4 p-2 mb-0">IP адреса: <b>n1treelcraft-pe.gq:57286</b></p>
-              </div>
-                <h2 class="p-3 text-center mb-0" style="color: white;background-color: rgb(96, 165, 244); font-weight: 900;">Статус:</h2>
-              
-                <div class="d-grid gap-2">
-                  <button class="btn btn-danger" type="button" style="font-size: 18px;"><a onclick="alert('Сервер Minecraft n1treelcraft-pe.gq - зараз ОФЛАЙН! Бажаєте пограти? -Напишіть адміну в інсту: @n1treel')" href="#" style="color:white; width: 100%; height: 100%; display: block;"><b>Офлайн</b></a></button>
-                </div>
-            </div>
-
-                <div id="disqus_thread"></div>
-  <script>
-      /**
-      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-      /*
-      var disqus_config = function () {
-      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-      };
-      */
-      (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = 'https://n1treelcraft.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-            
-
-              
 
           </div>
+        </div>
+      </div>
+    </div>
+      <div id="disqus_thread"></div>
+      <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function () { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://n1treelcraft.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+          Disqus.</a></noscript>
 
-          <!-- Footer -->
-  <footer class="text-center text-white" style="background-color:#4568b6;">
+
+
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color:#4568b6;">
       <!-- Grid container -->
       <div class="container p-4">
-    
+
         <!-- Section: Social media -->
         <section class="mb-4">
-        
-          <a class="btn btn-primary btn-floating m-1" style="background-color: #000000" href="www.tiktok.com/@n1treelbeats" role="button"><i class="fas fa-music"></i></i></a>
-          
-          <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="https://www.instagram.com/n1treel/" role="button"><i class="fab fa-instagram"></i></a>
+
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #000000"
+            href="www.tiktok.com/@n1treelbeats" role="button"><i class="fas fa-music"></i></i></a>
+
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac"
+            href="https://www.instagram.com/n1treel/" role="button"><i class="fab fa-instagram"></i></a>
         </section>
         <!-- Section: Social media -->
-    
-    
+
+
         <!-- Section: Form -->
         <hr>
         <!-- Section: Form -->
-    
-    
+
+
         <!-- Section: Text -->
         <section class="mb-4">
           <p>
@@ -159,28 +206,29 @@
           </p>
         </section>
         <!-- Section: Text -->
-    
-    
+
+
       </div>
       <!-- Grid container -->
-    
+
       <!-- Copyright -->
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
         © 2022 Ліцензія:
         <a class="text-dark" href="https://n1treelcraft-site.gq"><b>n1treelcraft-site.gq</b></a>
       </div>
       <!-- Copyright -->
-    
+
     </footer>
     <!-- Footer -->
-          
 
 
-      </div>
-      <script type="text/javascript" src="js/mdb.min.js"></script>
-      <!-- Custom scripts -->
-      <script type="text/javascript"></script>
 
-      
-  </body>
-  </html>
+  </div>
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+
+
+</body>
+
+</html>
